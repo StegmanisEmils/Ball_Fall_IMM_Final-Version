@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CameraFollowBall : MonoBehaviour
 {
@@ -13,6 +14,9 @@ public class CameraFollowBall : MonoBehaviour
         {
             //Keeps existing distant between Camera and Ball while updating the Y position as ball falls. (Offset by 5 to keep ball higher on screen.)
             this.transform.position = new Vector3(this.transform.position.x, followBall.position.y - 5, followBall.position.z - 10);
+        }
+        else{
+            SceneManager.LoadScene(2);
         }
     }
 }

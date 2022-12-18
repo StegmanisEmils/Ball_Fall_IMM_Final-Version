@@ -9,7 +9,7 @@ public class MoveBall : MonoBehaviour
     {
         
     }
-    public float speed = 10;
+    public float speed = 0.3f;
     // Update is called once per frame
     void Update()
     {

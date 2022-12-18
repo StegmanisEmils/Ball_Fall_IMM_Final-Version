@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Ball Fall/Scenes/MainMenu.unity
+    guid: b35b77a1d1802114fbb9cc41f1a7a936
+  - enabled: 1
+    path: Assets/GreenForest/Scences/Scene.unity
+    guid: 6e434770a7e9af947923dc9bbc63f752
+  - enabled: 1
+    path: Assets/Ball Fall/Scenes/Win Screen.unity
+    guid: f946cb9fc74bf1a4185374ee001972c8
   m_configObjects: {}
